@@ -1,0 +1,22 @@
+{
+	"name": "MobileBackendStarterApp",
+	"version": "0.0.1",
+	"description": "A template Mobile Backend application",
+	"dependencies": {
+		"express": "4.*",
+		"passport": "*",
+		"passport-imf-token-validation": "*",
+		"imf-oauth-user-sdk": "*",
+		"jade": "~1.9.2",
+    "body-parser": "~1.11.0",
+    "errorhandler": "~1.3.3",
+    "watson-developer-cloud-alpha": "~0.10.4"
+	},
+	"engines": {
+		"node": "0.10.26"
+	},
+	"repository": {},
+	"scripts": {
+	  "start": "node app.js"
+	}
+}

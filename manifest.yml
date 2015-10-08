@@ -1,0 +1,13 @@
+applications:
+- services:
+  - Personality Insights-e4
+  - IosSampleApp-AdvancedMobileAccess
+  - Question and Answer-na
+  disk_quota: 1024M
+  host: iossampleapp
+  name: IosSampleApp
+  command: node app.js
+  path: .
+  domain: eu-gb.mybluemix.net
+  instances: 1
+  memory: 512M
